@@ -1,0 +1,24 @@
+How To Build
+------------
+
+1)  Build/Install Boost v1.29, make sure you build the python library.
+2)  Edit the Makefile and check your INCLUDES, LDFLAGS and CXX
+3)  type make
+4)  wait for it to compile
+5)  type sudo make install
+6)  enter your password, optionally, email your root password to me and I'll
+come run the make install for you >;-)
+7)  rejoice
+
+How To Use
+----------
+
+1)  type python
+2)  wait for it to start
+3)  type import Judo (always import Judo first!!!)
+3)  type import JabberOO
+4)  rejoice
+
+--temas
+
+

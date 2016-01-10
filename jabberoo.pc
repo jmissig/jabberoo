@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: jabberoo
+Description: C++ Jabber Library
+Requires: sigc++-2.0
+Version: 1.9.4.1
+Libs: -L${libdir} -ljabberoo
+Cflags: -I${includedir}/jabberoo
